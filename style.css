@@ -1,0 +1,29 @@
+/* seletor global = seleciona TODOS os elementos da página ou de determinado lugar*/
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* seletor pela tag */
+p {
+    color: #f00;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+.paragrafo {
+    border: 1px solid #0ff;
+    color: #00f;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+#titulo {
+    color: #0f0;
+    margin-bottom: 1rem;
+}
